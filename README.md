@@ -11,7 +11,7 @@ This documentation is intended for developers and cloud engineers with a foundat
 - Domain registration with a DNS provider that supports CNAME records
 
 ## Architecture Overview
-![Architecture Diagram Placeholder]
+![Architecture Diagram](static-website-architecture.webp)
 
 In this architecture:
 - **Amazon S3** hosts the website content (`index.html`, `style.css`).
@@ -50,9 +50,10 @@ To modify and deploy updates:
 3. CodePipeline will automatically deploy the updated files, making changes live on the website.
 
 ## Screenshots
-- Deployed Website Screenshot
-- CloudFront Configuration Screenshot
-- CodePipeline Workflow Screenshot
+- ![Deployed Website Screenshot on CloudFront Url](WebSiteOnCloudFrontUrl.png)
+- ![Deployed Website Screenshot on Custom Domain Url](WebsiteOnCustomDomainUrl.png)
+- ![CodePipeline Workflow](CodePipeline.png)
+
 
 ## Conclusion
 Deploying this static website enhanced my understanding of AWS services like S3, CloudFront, ACM, and CodePipeline. This hands-on experience helped streamline cloud-based static site deployment with secure access and automated updates.
