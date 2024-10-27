@@ -57,3 +57,8 @@ To modify and deploy updates:
 
 ## Conclusion
 Deploying this static website enhanced my understanding of AWS services like S3, CloudFront, ACM, and CodePipeline. This hands-on experience helped streamline cloud-based static site deployment with secure access and automated updates.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
